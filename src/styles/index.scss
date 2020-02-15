@@ -4,3 +4,17 @@ body {
   color: $body-color;
   font-family: sans-serif;
 }
+
+table,
+td {
+  border: 1px solid black;
+}
+thead {
+  color: chartreuse;
+}
+tbody td {
+  color: blue;
+}
+tfoot {
+  color: purple;
+}
