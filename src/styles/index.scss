@@ -6,25 +6,35 @@
 }
 
 h1 {
-  color: rgb(182, 45, 45);
-  background: rgba(18, 72, 93, 0.5);
+  color: rgb(246, 158, 99);
+}
+
+h3 {
+  color: rgb(129, 223, 246);
 }
 
 #header {
-  color: red;
-  background: rgba(172, 71, 4, 0.6);
+  color: rgb(250, 164, 66);
+  size: 15px;
 }
 header,
 main,
 aside,
 footer {
-  border: 3px solid green;
   padding: 10px;
   margin: 10px 0;
 }
+
+header {
+  background-color: rgb(75, 53, 75);
+  text-align: center;
+  color: whitesmoke;
+}
+
 main {
   float: left;
   width: 65%;
+  border-right: cornflowerblue dotted;
 }
 
 aside {
@@ -34,56 +44,37 @@ aside {
 
 footer {
   clear: both;
-}
-
-.yellowBackground {
-  background: rgb(200, 200, 142);
-  color: #2929ea;
-}
-
-.text-align-center {
+  background-color: rgb(34, 17, 34);
   text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-#articles {
-  background-color: rgb(128, 156, 240);
+a {
+  color: whitesmoke;
 }
 
-//p.yellowBackground {
-//  text-align: center;
-//}
-
-td.yellowBackground {
-  font-size: 30px;
-}
-
-#sectionWithBackground {
-  background-color: lightness($color: #137181);
-  background-image: url("https://i1.rozetka.ua/goods/8333607/58883314_images_8333607250.jpg");
-  //border: 2px solid black;
-  border-width: 3px;
-  border-style: dotted;
-  border-color: maroon;
-  border-radius: 15px;
-  padding: 20px 10px;
-}
-
-#sectionWithBackground h3 {
-  border-left-color: mediumpurple;
-  border-left-width: 10px;
-  border-left-style: solid;
+.linkSection a {
+  color: rgb(209, 169, 74);
 }
 
 img {
   margin: 10px;
-  border-radius: 15px;
-}
-
-.roundImage {
-  border-radius: 160px;
 }
 
 body {
   margin: 0em 8px;
   padding: 0em 8px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 40%;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+  border-color: black;
 }
