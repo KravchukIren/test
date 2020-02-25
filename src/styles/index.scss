@@ -32,13 +32,21 @@ header {
 }
 
 main {
-  float: left;
-  width: 65%;
+  //float: left;
+  //width: 65%;
   border-right: cornflowerblue dotted;
 }
 
+#widhtHeightTest {
+  width: 200px;
+  height: 300px;
+  padding: 20px 10px 20px 10px;
+  border: 5px solid blue;
+  margin: 5px;
+}
+
 aside {
-  float: right;
+  //float: right;
   width: 30%;
 }
 
