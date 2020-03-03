@@ -14,7 +14,7 @@ const user = {
   getNameSurnameBirth: function() {
     console.log(
       "Name, Surname, Birth - ",
-      this.name + this.surname + this.birth
+      this.name + " " + this.surname + " " + this.birth
     );
   }
 };
