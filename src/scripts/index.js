@@ -21,6 +21,6 @@ const user = {
 console.log(typeof user);
 console.log(user.havePets);
 console.log(user.favFood);
-console.log(favFood[0]);
+console.log(user.favFood[0]);
 
 user.getNameSurnameBirth();
