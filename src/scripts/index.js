@@ -6,17 +6,17 @@ const user = {
   age: 25,
   birth: "24.11.1994",
   height: 170,
-  getNameSurnameBirth: function() {
-    console.log(
-      "Name, Surname, Birth - ",
-      this.name + " " + this.surname + " " + this.birth
-    );
-  },
   havePets: true,
   favfood1: "sushi",
   favfood2: "ramen",
   favfood3: "chicken",
-  favFood: [sushi, ramen, chicken]
+  favFood: ["sushi", "ramen", "chicken"],
+  getNameSurnameBirth: function() {
+    console.log(
+      "Name, Surname, Birth - ",
+      this.name + this.surname + this.birth
+    );
+  }
 };
 console.log(typeof user);
 console.log(user.havePets);
