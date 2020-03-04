@@ -1,4 +1,6 @@
 import "../styles/index.scss";
+import video_1 from "../assets/video/NCT127_Awaken.mp4";
+import record from "../assets/audio/01. GIANTS.mp3";
 
 const user = {
   name: "Midori",
@@ -14,13 +16,13 @@ const user = {
   getNameSurnameBirth: function() {
     console.log(
       "Name, Surname, Birth - ",
-      this.name + this.surname + this.birth
+      this.name + " " + this.surname + " " + this.birth
     );
   }
 };
 console.log(typeof user);
 console.log(user.havePets);
 console.log(user.favFood);
-console.log(favFood[0]);
+console.log(user.favFood[0]);
 
 user.getNameSurnameBirth();
