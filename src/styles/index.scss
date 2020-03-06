@@ -5,6 +5,42 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+.serifFont {
+  font-family: "Times New Roman", Times, Georgia, serif;
+  font-weight: bold;
+}
+
+.sansSerifFont {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+
+.monospaceFont {
+  font-family: "Courier New", Courier, monospace;
+  font-variant: small-caps;
+}
+
+h2 {
+  font-size: 6vw;
+}
+
+// .font-oblique {
+//   font-style: oblique;
+// }
+
+// .font-italic {
+//   font-style: italic;
+//   font-variant: small-caps;
+// }
+
+// .font-example {
+//   font: italic small-caps bold 25px Georgia, serif;
+// }
+
+.fas {
+  font-size: 50px;
+}
+
 h1 {
   color: rgb(246, 158, 99);
 }
@@ -12,7 +48,7 @@ h1 {
 h3 {
   color: rgb(129, 223, 246);
   letter-spacing: -1px;
-  text-shadow: 3px 2px rgb(226, 211, 211);
+  //text-shadow: 3px 2px rgb(226, 211, 211);
 }
 
 nav a {
