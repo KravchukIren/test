@@ -1,6 +1,7 @@
 import "../styles/index.scss";
 import video_1 from "../assets/video/NCT127_Awaken.mp4";
 import record from "../assets/audio/01. GIANTS.mp3";
+import "./events";
 
 const user = {
   name: "Midori",

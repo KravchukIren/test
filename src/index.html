@@ -21,7 +21,7 @@
       alert("WHY?");
     </script> -->
   </head>
-  <body>
+  <body onload="onPageLoaded()">
     <header>
       <nav>
         <span>Header</span>
@@ -32,6 +32,22 @@
         <a href="#">Log In</a>
       </nav>
     </header>
+    <section class="paddingInSection">
+      <input type="text" value="Hello" onchange="validateFiled(this.value)" />
+      <button onclick="buttonClick()">Click me</button>
+      <input
+        type="button"
+        value="What day is today?"
+        onclick="showTodaysDate()"
+      />
+      <br />
+      <input
+        type="text"
+        onkeydown="console.log('Key down')"
+        onkeyup="console.log('Key up')"
+      />
+      <br />
+    </section>
     <section>
       <h2>Terry Pratchett</h2>
       <!-- <div id="serifFont">Font</div>
@@ -90,7 +106,7 @@
       <p>yeap text again</p>
     </section>
     <section>
-      <div id="widhtHeightTest">
+      <div onmouseover="overDiv()" onmouseout="outDiv()" id="widhtHeightTest">
         <p>
           Когда я был дитя и бог, Могер был не селеньем скромным, а белым чудом
           — вне времён — сияющим, огромным...
