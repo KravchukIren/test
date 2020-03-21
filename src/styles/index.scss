@@ -28,6 +28,26 @@ h2 {
   font-size: 6vw;
 }
 
+.ol-styled > li {
+  color: green;
+}
+
+.ol-styled > ul > li {
+  color: red;
+}
+
+.combinators > div {
+  background-color: hotpink;
+}
+
+span + section {
+  background-color: yellowgreen;
+}
+
+span ~ div {
+  background-color: indigo;
+}
+
 // .font-oblique {
 //   font-style: oblique;
 // }
@@ -58,6 +78,7 @@ h3 {
 nav a {
   text-decoration: none;
   text-transform: uppercase;
+  color: whitesmoke;
 }
 
 #header {
@@ -116,11 +137,6 @@ p {
   word-spacing: 10px;
 }
 
-aside {
-  //float: right;
-  //width: 30%;
-}
-
 footer {
   clear: both;
   background-color: rgb(34, 17, 34);
@@ -130,7 +146,7 @@ footer {
 }
 
 a {
-  color: whitesmoke;
+  color: rgb(129, 26, 26);
 }
 
 .linkSection a {

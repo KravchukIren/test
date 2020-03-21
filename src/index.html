@@ -32,6 +32,44 @@
         <a href="#">Log In</a>
       </nav>
     </header>
+    <section class="combinators">
+      <div>
+        The Word Alive
+      </div>
+      <span>Why Am I Like This</span>
+      <section class="inner-combinator">
+        <span>Life Cycles</span>
+        <div>Sellout</div>
+      </section>
+    </section>
+    <section>
+      <ol class="ol-styled">
+        <li>Cat</li>
+        <li>Dog</li>
+        <ul>
+          <li>
+            <span>Fox</span>
+            <section>i really like foxes</section>
+          </li>
+          <li>
+            <span>Wolf</span>
+            <div>i really like wolfs</div>
+          </li>
+        </ul>
+      </ol>
+      <p class="red-text">I am red text</p>
+      <p id="specialP">I am red text</p>
+      <p class="red-text">I am red text 2</p>
+      <a id="linkToSomewhere" href="#">I am going nowhere</a>
+      <br />
+      <button onclick="applyCss()">Add CSS</button>
+      <br />
+      <button onclick="setHref()">Set HREF to anchor tag</button>
+      <br />
+      <button id="newText" onclick="changeTextAndStyles()">
+        Change text in me
+      </button>
+    </section>
     <section class="paddingInSection">
       <input type="text" value="Hello" onchange="validateFiled(this.value)" />
       <button onclick="buttonClick()">Click me</button>
@@ -42,6 +80,7 @@
       />
       <br />
       <input
+        name="hrefInputFiles"
         type="text"
         onkeydown="console.log('Key down')"
         onkeyup="console.log('Key up')"
