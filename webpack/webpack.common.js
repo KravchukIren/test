@@ -28,7 +28,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: "test.html",
-      template: Path.resolve(__dirname, "../src/styles/test.html")
+      template: Path.resolve(__dirname, "../src/test.html")
     })
   ],
   resolve: {
