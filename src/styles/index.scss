@@ -1,175 +1,28 @@
-* {
-  //  font: 20px arial. sans-serif;
-  //  color: #000;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+.parent {
+  position: relative;
 }
 
-.paddingInSection {
-  padding: 30px;
-}
-
-.serifFont {
-  font-family: "Times New Roman", Times, Georgia, serif;
+.child {
+  width: 60px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: bold;
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
 
-.sansSerifFont {
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: italic;
+.information {
+  background: black;
+  position: sticky;
+  top: 0;
 }
-
-.monospaceFont {
-  font-family: "Courier New", Courier, monospace;
-  font-variant: small-caps;
-}
-
-h2 {
-  font-size: 6vw;
-}
-
-.ol-styled > li {
-  color: green;
-}
-
-.ol-styled > ul > li {
-  color: red;
-}
-
-.combinators > div {
-  background-color: hotpink;
-}
-
-span + section {
-  background-color: yellowgreen;
-}
-
-span ~ div {
-  background-color: indigo;
-}
-
-// .font-oblique {
-//   font-style: oblique;
-// }
-
-// .font-italic {
-//   font-style: italic;
-//   font-variant: small-caps;
-// }
-
-// .font-example {
-//   font: italic small-caps bold 25px Georgia, serif;
-// }
 
 .fas {
-  font-size: 50px;
-}
-
-h1 {
-  color: rgb(246, 158, 99);
-}
-
-h3 {
-  color: rgb(129, 223, 246);
-  letter-spacing: -1px;
-  //text-shadow: 3px 2px rgb(226, 211, 211);
-}
-
-nav a {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: whitesmoke;
-}
-
-#header {
-  color: rgb(250, 164, 66);
-  size: 15px;
-}
-header,
-main,
-aside,
-footer {
-  padding: 10px;
-  margin: 10px 0;
-}
-
-header {
-  background-color: rgb(75, 53, 75);
-  text-align: center;
-  color: whitesmoke;
-}
-
-main {
-  //float: left;
-  //width: 65%;
-  border-right: cornflowerblue dotted;
-}
-
-#widhtHeightTest {
-  width: 200px;
-  height: 300px;
-  padding: 20px 10px 20px 10px;
-  border: 5px solid blue;
-  margin: 5px;
-  outline-style: auto;
-  outline-color: royalblue;
-  outline-width: thick;
-}
-
-h1,
-h3 {
-  text-align: center;
-  text-transform: capitalize;
-}
-
-.text-Lowercase {
-  text-transform: lowercase;
-}
-
-.text-capitalize {
-  text-transform: capitalize;
-}
-
-p {
-  text-indent: 25px;
-  line-height: 1.5;
-  //direction: rtl;
-  word-spacing: 10px;
-}
-
-footer {
-  clear: both;
-  background-color: rgb(34, 17, 34);
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-a {
-  color: rgb(129, 26, 26);
-}
-
-.linkSection a {
-  color: rgb(209, 169, 74);
-}
-
-img {
-  margin: 10px;
-}
-
-body {
-  margin: 0em 8px;
-  padding: 0em 8px;
-}
-
-table {
-  border-collapse: collapse;
-  width: 40%;
-}
-
-table,
-th,
-td {
-  border: 1px solid;
-  border-color: black;
+  color: black;
+  border: white;
+  background-color: white;
+  padding: 5px;
+  position: relative;
+  left: 50%;
+  bottom: 22px;
 }
