@@ -26,3 +26,20 @@
   left: 50%;
   bottom: 22px;
 }
+
+ul a:link {
+  color: green;
+}
+
+ul a:visited {
+  color: plum;
+}
+
+ul a:hover {
+  border: 1px solid royalblue;
+  background: black;
+}
+
+ul a:active {
+  color: red;
+}
