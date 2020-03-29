@@ -8,47 +8,186 @@
       content="web page from online course ProFrontend"
     />
     <meta name="author" content="Iryna Kravchuk" />
-    <script
-      src="https://kit.fontawesome.com/a93683c622.js"
-      ;
-      crossorigin="anonymous"
-    ></script>
   </head>
   <body>
-    <nav class="information">
-      <a href="https://ru.wikipedia.org/wiki/Rammstein">Info</a>
-      <a href="https://youtu.be/pat2c33sbog">Video</a>
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="#">Сэр Макс</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link disabled"
+              href="#"
+              tabindex="-1"
+              aria-disabled="true"
+              >Disabled</a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="dropdown01"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Dropdown</a
+            >
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="text"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
     </nav>
-    <div class="parent">
-      <img src="../src/assets/раммы.jpeg" width="100%" height="300" />
-      <div class="child">Listen The Best</div>
-    </div>
-    <section>
-      <hr />
-      <i class="fas fa-play-circle"></i>
+
+    <section class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="jumbotron">
+            <h1 class="display-4">Вижу Вас, как наяву!</h1>
+            <p class="lead">
+              Боюсь, я вынужден объясниться… Во-первых, меня действительно зовут
+              Макс.
+            </p>
+            <p>М. Фрай. Чужак</p>
+            <hr class="my-4" />
+
+            <a
+              class="btn btn-dark btn-lg"
+              href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BA%D1%81_%D0%A4%D1%80%D0%B0%D0%B9"
+              role="button"
+              target="_blank"
+              >Learn more</a
+            >
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img
+            class="w-100"
+            src="../src/assets/img/макс.jpg"
+            alt="Main image"
+          />
+        </div>
+      </div>
     </section>
-    <br />
-    <ul>
-      just my fav songs
-      <li>
-        <a href="https://youtu.be/5HMOkfE3kno" target="_blank"
-          >Stray Kids - Voices</a
-        >
-      </li>
-      <li>
-        <a href="https://youtu.be/MvqB6JsRbsc" target="_blank"
-          >Super Junior - Black Suit</a
-        >
-      </li>
-      <li>
-        <a href="https://youtu.be/pat2c33sbog" target="_blank"
-          >Rammstein - Ausländer</a
-        >
-      </li>
-      <li>
-        <a href="https://youtu.be/ScNNfyq3d_w" target="_blank"
-          >Linlin Park - Castle of Glass</a
-        >
-      </li>
+
+    <section class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2 text-center">
+          <h2 class="mb-4">Все о Мире Макса Фрая</h2>
+          <hr />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="dropdown">
+            <a
+              class="btn btn-danger dropdown-toggle"
+              href="#"
+              role="button"
+              id="dropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Автор
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Биография</a>
+              <a class="dropdown-item" href="#">Соавтор</a>
+              <a class="dropdown-item" href="#">Псевдоним</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="dropdown">
+            <a
+              class="btn btn-success dropdown-toggle"
+              href="#"
+              role="button"
+              id="dropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Книги
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Цикл «Лабиринты Ехо»</a>
+              <a class="dropdown-item" href="#">Цикл «Мой Рагнарёк»</a>
+              <a class="dropdown-item" href="#">Цикл «Хроники Ехо»</a>
+              <a class="dropdown-item" href="#">Цикл «Сновидения Ехо»</a>
+              <a class="dropdown-item" href="#"
+                >Другие (в том числе авторские сборники)</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            Под псевдонимом „Макс Фрай“ был создан ряд литературных проектов, в
+            числе которых цикл фантастических бестселлеров, большой цикл эссе о
+            литературе и искусстве, популярный словарь-справочник „Азбука
+            современного искусства“, тематические литературные антологии,
+            составленные из произведений классиков мировой литературы и
+            современных российских авторов. Иногда псевдоним используется для
+            создания совместных литературных проектов художников Светланы
+            Мартынчик и Игоря Степина. Количество книг написанных и составленных
+            Максом Фраем уже перевалило за шестой десяток.
+          </div>
+          <div class="col-md-6">
+            В серии «Лабиринты Ехо», «Хроники Ехо» и «Сновидения Ехо» входят
+            около 40 повестей, где от первого лица рассказывается о приключениях
+            обычного, на первый взгляд, молодого человека, который резко меняет
+            свою жизнь, дав согласие на предложение своего нового знакомого из
+            снов — переехать в другой мир и поступить к нему на службу. Таким
+            образом, Макс Фрай является и псевдонимом, и главным действующим
+            лицом. Некоторые причины, по которым главный герой является
+            одновременно и автором книг, раскрываются позже.
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
