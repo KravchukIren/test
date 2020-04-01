@@ -1,9 +1,85 @@
-@import "~bootstrap/scss/bootstrap";
-
-body {
-  padding-top: 5rem;
+html,
+body,
+.lists-container {
+  height: 100%;
 }
 
-.jumbotron {
-  background: none;
+body {
+  font-family: sans-serif;
+}
+
+.lists-container > .row {
+  height: 50%;
+  border-bottom: 1px solid #171717;
+}
+
+.lists-container > .row > .col-6 {
+  border-right: 1px solid #171717;
+}
+
+.lists-container ul {
+  list-style-type: none;
+  padding-left: 0;
+  .fa-trash {
+    display: none;
+  }
+
+  li {
+    cursor: pointer;
+  }
+
+  li:hover {
+    .fa-trash {
+      display: inline;
+      color: rgb(251, 93, 35);
+    }
+  }
+}
+
+.doneList li {
+  text-decoration: line-through;
+}
+
+.header-background {
+  border-bottom: 1px solid #171717;
+}
+
+#importantAndUrgent {
+  background-color: rgb(247, 151, 151);
+
+  .header-background {
+    background-color: rgb(199, 112, 112);
+  }
+}
+
+#importantAndNotUrgent {
+  background-color: rgb(153, 245, 202);
+
+  .header-background {
+    background-color: rgb(115, 194, 157);
+  }
+}
+
+#notImportantAndUrgent {
+  background-color: rgb(248, 242, 161);
+
+  .header-background {
+    background-color: rgb(214, 208, 127);
+  }
+}
+
+#notImportantAndNotUrgent {
+  background-color: rgb(211, 235, 235);
+
+  .header-background {
+    background-color: rgb(169, 202, 202);
+  }
+}
+
+.h-15 {
+  height: 15%;
+}
+
+.h-10 {
+  height: 10%;
 }
